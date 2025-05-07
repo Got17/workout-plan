@@ -107,5 +107,9 @@ body.light {
     border: 1px solid #ccc;
     border-radius: 4px;
   }
+
+  .day-content {
+    display: none;
+  }
   
   
