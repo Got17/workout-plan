@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weekly Workout Plan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🏋️‍♂️ FitPlan</div>
+    <button id="themeSwitcher">🌓</button>
+  </header>
+  <main>
+    <div class="tabs">
+      <button class="tab active" data-day="monday">Monday</button>
+      <button class="tab" data-day="tuesday">Tuesday</button>
+      <button class="tab" data-day="wednesday">Wednesday</button>
+      <button class="tab" data-day="thursday">Thursday</button>
+      <button class="tab" data-day="friday">Friday</button>
+      <button class="tab" data-day="saturday">Saturday</button>
+      <button class="tab" data-day="sunday">Sunday</button>
+    </div>
+
+    <div class="content">
+      <!-- MONDAY -->
+      <div class="day-content" id="monday"></div>
+
+      <!-- TUESDAY -->
+      <div class="day-content" id="tuesday" style="display: none;"></div>
+
+      <!-- WEDNESDAY -->
+      <div class="day-content" id="wednesday" style="display: none;"></div>
+
+      <!-- THURSDAY -->
+      <div class="day-content" id="thursday" style="display: none;"></div>
+
+      <!-- FRIDAY (same as Monday) -->
+      <div class="day-content" id="friday" style="display: none;"></div>
+
+      <!-- SATURDAY (same as Tuesday) -->
+      <div class="day-content" id="saturday" style="display: none;"></div>
+
+      <!-- SUNDAY (same as Wednesday) -->
+      <div class="day-content" id="sunday" style="display: none;"></div>
+    </div>
+  </main>
+
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
