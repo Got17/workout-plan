@@ -1,35 +1,49 @@
 export const allExercises = {
     monday: [
-      { name: 'Bench Press' },
-      { name: 'Incline Bench Press' },
-      { name: 'Pecs Fly' },
-      { name: 'Overhead Cable Triceps Extension' },
-      { name: 'Tricep Pushdown With Bar' }
+      { name: 'Rest day' }
     ],
     tuesday: [
-      { name: 'Lat Pull Down' },
-      { name: 'Cable Row' },
-      { name: 'Deadlift' },
-      { name: 'Bicep Curl' },
-      { name: 'Hammer Curl' }
+      { name: 'Rest day' }
     ],
     wednesday: [
-      { name: 'Dumbbell Press' },
-      { name: 'Lateral Raise' },
-      { name: 'Arnold Press' },
-      { name: 'Face Pull' },
-      { name: 'Forearm Curl' }
+      { name: 'Flat Bench Press' },
+      { name: 'Incline Dumbbell Press' },
+      { name: 'Overhead Shoulder Press (Dumbbell or Barbell)' },
+      { name: 'Lateral Raises' },
+      { name: 'Triceps Dips / Pushdowns' },
+      { name: 'Optional: Push-ups (Failure)' }
     ],
     thursday: [
-      { name: 'Leg Extension' },
-      { name: 'Squat' },
-      { name: 'Leg Curl' },
-      { name: 'Glutes Machine' },
-      { name: 'Calf Raise' }
+      { name: 'Deadlifts' },
+      { name: 'Pull-ups or Lat Pulldown' },
+      { name: 'Barbell Rows' },
+      { name: 'Face Pulls' },
+      { name: 'EZ Bar Curl or Dumbbell Curl' },
+      { name: 'Hammer Curls' }
+    ],
+    friday: [
+      { name: 'Back Squats' },
+      { name: 'Romanian Deadlifts' },
+      { name: 'Leg Press' },
+      { name: 'Walking Lunges' },
+      { name: 'Leg Curls' },
+      { name: 'Standing Calf Raises' }
+    ],
+    saturday: [
+      { name: 'Incline Bench Press' },
+      { name: 'Chin-ups / Lat Pulldown' },
+      { name: 'Seated Row' },
+      { name: 'Dumbbell Shoulder Press' },
+      { name: 'Dumbbell Flys or Pec Deck' },
+      { name: 'Triceps Extensions + Bicep Superset' }
+    ],
+    sunday: [
+      { name: 'Front Squats / Goblet Squats' },
+      { name: 'Leg Extensions + Leg Curls (Superset)' },
+      { name: 'Calf Raises (Seated + Standing)' },
+      { name: 'Cable Crunch / Hanging Leg Raise / Russian Twists' },
+      { name: 'Plank' }
     ]
   };
   
-  allExercises.friday = allExercises.monday;
-  allExercises.saturday = allExercises.tuesday;
-  allExercises.sunday = allExercises.wednesday;
   
