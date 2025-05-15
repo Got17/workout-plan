@@ -5,6 +5,7 @@ export function createExerciseList(day, exercises) {
   dayContent.innerHTML = '';
 
   const idsToPersist = [];
+  const exercisesToPersist = [];
 
   exercises.forEach(exercise => {
     const nameKey = exercise.name.replace(/\s+/g, '');
@@ -13,9 +14,13 @@ export function createExerciseList(day, exercises) {
     const weightId = `${day}${nameKey}Weight`;
 
     idsToPersist.push(repsId, setsId, weightId);
+    exercisesToPersist.push(nameKey);
 
     const html = `
-      <div class="workout"><strong>${exercise.name}</strong>
+      <div class="workout">
+        <div>
+          <textarea id="${nameKey}" class="input-field exercise-name">${exercise.name}</textarea>
+        </div>
         <div class="inputs">
           <label>
             <input id="${repsId}" type="number" class="input-field" min="0"> <span>reps</span>
@@ -33,4 +38,5 @@ export function createExerciseList(day, exercises) {
   });
 
   idsToPersist.forEach(setupInputPersistence);
+  exercisesToPersist.forEach(setupInputPersistence);
 }

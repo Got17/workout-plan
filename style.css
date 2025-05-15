@@ -110,6 +110,20 @@ body.light {
     color: var(--text-color);
   }
 
+  .exercise-name {
+    width: 18rem;
+    height: 3rem;
+    padding-top: 0.8rem;;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+  }
+
+  .exercise-name:focus {
+    outline: none;
+  }
+
   .day-content {
     display: none;
   }

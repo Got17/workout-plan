@@ -15,8 +15,8 @@ export const allExercises = {
     ],
     thursday: [
       { name: 'Deadlifts' },
-      { name: 'Pull-ups or Lat Pulldown' },
-      { name: 'Barbell Rows' },
+      { name: 'Lat Pulldown' },
+      { name: 'Seated Cable Rows' },
       { name: 'Face Pulls' },
       { name: 'EZ Bar Curl or Dumbbell Curl' },
       { name: 'Hammer Curls' }
