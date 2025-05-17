@@ -1,9 +1,19 @@
 export const allExercises = {
     monday: [
-      { name: 'Rest day' }
+      { name: 'Exercise1' },
+      { name: 'Exercise2' },
+      { name: 'Exercise3' },
+      { name: 'Exercise4' },
+      { name: 'Exercise5' },
+      { name: 'Exercise6' }
     ],
     tuesday: [
-      { name: 'Rest day' }
+      { name: 'Exercise1' },
+      { name: 'Exercise2' },
+      { name: 'Exercise3' },
+      { name: 'Exercise4' },
+      { name: 'Exercise5' },
+      { name: 'Exercise6' }
     ],
     wednesday: [
       { name: 'Flat Bench Press' },
