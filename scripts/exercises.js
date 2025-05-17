@@ -52,7 +52,8 @@ export const allExercises = {
       { name: 'Leg Extensions + Leg Curls (Superset)' },
       { name: 'Calf Raises (Seated + Standing)' },
       { name: 'Cable Crunch / Hanging Leg Raise / Russian Twists' },
-      { name: 'Plank' }
+      { name: 'Plank' },
+      { name: 'Exercise6' }
     ]
   };
   
